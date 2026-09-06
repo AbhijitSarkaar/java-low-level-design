@@ -1,0 +1,18 @@
+package CaseStudies.Elevator;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Building {
+    public List<Floor> floors = new ArrayList<>();
+
+    public Building(int totalFloors, ExternalDispatcher externalDispatcher) {
+        for(int i = 1; i <= totalFloors; ++i) {
+            floors.add(new Floor(i, externalDispatcher));
+        }
+    }
+
+    public Floor getFloor(int floor) {
+        return floors.get(floor - 1);
+    }
+}
