@@ -1,0 +1,11 @@
+package DesignPatterns.NullPointerExceptionPattern;
+
+public class Car implements Vehicle {
+    @Override
+    public void start() {
+    }
+
+    @Override
+    public void stop() {
+    }
+}
