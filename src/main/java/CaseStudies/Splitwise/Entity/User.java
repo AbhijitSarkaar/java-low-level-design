@@ -3,6 +3,7 @@ package CaseStudies.Splitwise.Entity;
 import java.util.UUID;
 
 public class User {
+
     UUID userId;
     String userName;
 

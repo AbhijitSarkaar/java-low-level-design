@@ -23,7 +23,6 @@ public class BalanceSheetController {
     public void addOweAmount(UUID providerId, UUID recipientId, int amount) {
         BalanceSheet balanceSheet = balanceSheets.computeIfAbsent(providerId, k -> new BalanceSheet());
         balanceSheet.addOweAmount(recipientId, amount);
-
     }
 
     public void addToReceiveAmount(UUID providerId, UUID recipientId, int amount) {
