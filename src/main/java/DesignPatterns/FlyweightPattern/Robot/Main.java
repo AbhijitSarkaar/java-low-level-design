@@ -1,4 +1,4 @@
-package DesignPatterns.FlyweightPattern;
+package DesignPatterns.FlyweightPattern.Robot;
 
 public class Main {
     public static void main(String[] args) {

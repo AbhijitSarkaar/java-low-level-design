@@ -1,4 +1,4 @@
-package DesignPatterns.FlyweightPattern;
+package DesignPatterns.FlyweightPattern.Robot;
 
 import java.util.HashMap;
 import java.util.Map;

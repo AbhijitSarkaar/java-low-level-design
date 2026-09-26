@@ -1,11 +1,11 @@
-package DesignPatterns.FlyweightPattern;
+package DesignPatterns.FlyweightPattern.Robot;
 
-public class HumanoidRobot implements IRobot {
+public class RoboticDog implements IRobot {
 
     private String type;
     private Sprites body;
 
-    public HumanoidRobot(String type, Sprites body) {
+    public RoboticDog(String type, Sprites body) {
         this.type = type;
         this.body = body;
     }
@@ -23,3 +23,4 @@ public class HumanoidRobot implements IRobot {
 
     }
 }
+
