@@ -16,5 +16,4 @@ public class Main {
         logger.logMessage(LogProcessor.FATAL, "this is a fatal message");
 
     }
-
 }
